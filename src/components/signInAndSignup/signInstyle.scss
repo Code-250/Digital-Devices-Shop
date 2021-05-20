@@ -3,7 +3,7 @@
   flex-direction: column;
   margin: auto;
   background-color: rgb(139, 143, 150);
-  width: 40vw;
+  width: 500px;
 
   .title {
     text-align: center;
@@ -26,6 +26,8 @@
     }
     .button {
       width: auto;
+      display: flex;
+      justify-content: space-between;
     }
   }
 }
