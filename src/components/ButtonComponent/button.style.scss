@@ -1,25 +1,30 @@
 $main-color: black;
 $second-color: white;
+.button-holder {
+  display: flex;
+  justify-content: flex-end;
+  .custom-button {
+    min-width: 165px;
+    width: 10vw;
+    min-height: 50px;
+    height: 59px;
+    letter-spacing: 0.5px;
+    line-height: 50px;
+    padding: 0px 35px 0px 35px;
+    font-size: 15px;
+    background-color: $main-color;
+    color: $second-color;
+    text-transform: uppercase;
+    font-family: open sans condensed;
+    font-weight: bolder;
+    border: none;
+    cursor: pointer;
+    margin: 12px;
 
-.custom-button {
-  min-width: 165px;
-  width: auto;
-  height: 50px;
-  letter-spacing: 0.5px;
-  line-height: 50px;
-  padding: 0 35px 0 35px;
-  font-size: 15px;
-  background-color: $main-color;
-  color: $second-color;
-  text-transform: uppercase;
-  font-family: open sans condensed;
-  font-weight: bolder;
-  border: none;
-  cursor: pointer;
-
-  &:hover {
-    background-color: $second-color;
-    color: $main-color;
-    border: 1px solid $main-color;
+    &:hover {
+      background-color: $second-color;
+      color: $main-color;
+      border: 1px solid $main-color;
+    }
   }
 }
