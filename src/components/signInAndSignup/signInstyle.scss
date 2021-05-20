@@ -3,7 +3,7 @@
   flex-direction: column;
   margin: auto;
   background-color: rgb(139, 143, 150);
-  width: 30vw;
+  width: 40vw;
 
   .title {
     text-align: center;
@@ -21,7 +21,8 @@
 
     .signup {
       text-align: end;
-      padding: 20px;
+      padding-top: 40px;
+      color: white;
     }
   }
 }

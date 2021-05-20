@@ -2,6 +2,7 @@ import React from 'react';
 import './signInstyle.scss';
 import FormInput from '../formInputComponent/FormInput';
 import { Link } from 'react-router-dom';
+import CustomButton from '../ButtonComponent/button';
 
 class SignInComponent extends React.Component {
   constructor(props) {
@@ -45,7 +46,7 @@ class SignInComponent extends React.Component {
             required
           />
 
-          <input type='submit' value='Submit' />
+          <CustomButton type='submit'>Login</CustomButton>
           <span className='signup'>
             create account <Link to='/signup'>here</Link>
           </span>
